@@ -1,0 +1,45 @@
+{% extends 'Base.html' %}
+{% load static %}
+{% block content %}
+    <body style="background-color:#ffff;">
+    <html>
+<body>
+<html>
+<head>
+<style>
+h1 {
+  font-size: 40px; color:#000000;
+}
+h1 {text-align: center;}
+</style>
+</head>
+<body>
+<h1>กรุณาเลือกแพ็คเกจ</h1>
+
+<blockquote  style="color:#000000;" cite="http://www.worldwildlife.org/who/index.html">
+</blockquote>
+<html>
+<head>
+<style>
+    p {
+  font-size: 20px; }
+    p {text-align: center;}
+p {outline-color:red;}
+p.outset {outline-style: outset;}
+</style>
+</head>
+<body>
+<a href="{% url 'Pk1' %}" class="nav-link">
+<p style="color:#000000;" class="outset">โต๊ะจีนชุด 1,500 บาท ชุด A</p>
+<a href="{% url 'Pk2' %}" class="nav-link">
+<p style="color:#000000;" class="outset">โต๊ะจีนชุด 2,000 บาท ชุด B</p>
+<a href="{% url 'Pk3' %}" class="nav-link">
+<p style="color:#000000;" class="outset">โต๊ะจีนชุด 4,500 บาท ชุด C</p>
+
+</body>
+</html>
+
+</body>
+</html>
+    </body>
+{% endblock %}
